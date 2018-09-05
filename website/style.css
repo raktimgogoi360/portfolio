@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+//*
+font-family: 'Great Vibes', cursive;
+*//
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Great+Vibes');
+//*
+font-family: 'Fjalla One', sans-serif;
+*//
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Great+Vibes|Shadows+Into+Light');
+//*
+font-family: 'Shadows Into Light', cursive;
+*//
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+//*
+font-family: 'Oswald', sans-serif;
+*//
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+//*
+font-family: 'Baloo Tammudu', cursive;
+*//
+
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+
+//*
+font-family: 'Uncial Antiqua', cursive;
+*//
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+//*
+font-family: 'Dancing Script', cursive;
+*//
+
+
+
+body {
+	margin: 0;
+}
+
+header{
+
+	background: black;
+	padding: 8px 0px 6px 40px;
+	height:60px;
+}
+
+header h1{
+	display: inline;
+color: white;
+
+font-family: 'Shadows Into Light', cursive;
+ font-weight: 400;
+ font size: 33px;
+ float: left;
+ margin-top:0;
+ margin-left:0; 
+margin-right:0;
+font-size: 30px;
+
+}
+
+nav ul 
+{
+	display : inline;
+	padding: 0px;
+	float: left;
+   }
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+
+}
+nav ul li a
+{
+color: white;
+text-decoration: none;
+margin-left: 20px;
+
+
+}
+
+#one {
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+.homered {
+	background-color:red;
+	padding: 22px 9px 10px 9px;
+}
+.divider{
+	background-color: red;
+	height: 4px;
+}
+
+.homeblack:hover{
+	background-color: blue;
+	padding: 22px 9px 10px 9px;
+
+}
+
+
+.fullimage {
+background-image: url(a.jpg.JPG);
+  height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+ margin: 0;
+ padding: 0;
+}
+
+.homesub {
+font-family: 'Dancing Script', cursive;
+margin: 0;
+
+padding:  9% 5% 0% 55%;
+font-size: 18px;
+color: grey;
+}
+	
+
+.homedgn {
+   
+  font-family: 'Uncial Antiqua', cursive;
+margin: 0.5% 0% 0% 55%;
+font-size: 75px;
+color: blue;
+background-color: rgba(0, 0, 0, 0.4);
+display: inline-block;
+
+
+}
+
+.homepho {
+
+	font-family: 'Uncial Antiqua',cursive;
+	font-size: 75px;
+		margin: 0% 0% 0% 55%;
+     color: blue; 
+display: inline-block; 
+ }
+
+
+.homebutton {
+		margin: 0% 0% 0% 55%;
+
+background-color: yellow;
+color:black;
+font-size: 1.4em;
+height: 50px;
+border: none;
+cursor: pointer;
+outline: none;
+font-weight: 20;
+}
